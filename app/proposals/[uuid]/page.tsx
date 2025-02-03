@@ -1,34 +1,55 @@
 import { notFound } from "next/navigation";
+import { getLearningPlan } from "@/app/utils/getLearningPlan";
+import { getAllLearningPlanIds } from "@/app/utils/getAllLearningPlanIds";
+import StudentOverview from "@/app/components/StudentOverview";
+import EngagementOverview from "@/app/components/EngagementOverview";
+import Requirements from "@/app/components/Requirements";
+import GoalsSection from "@/app/components/GoalsSection";
+import SessionStructure from "@/app/components/SessionStructure";
+import ProjectRoadmap from "@/app/components/ProjectRoadmap";
 
-// This is a type for the expected UUID format
-type Props = {
-  params: {
+export async function generateStaticParams() {
+  const ids = await getAllLearningPlanIds();
+  return ids.map((uuid) => ({
+    uuid,
+  }));
+}
+
+interface PageProps {
+  params: Promise<{
     uuid: string;
-  };
-};
+  }>;
+}
 
-// Function to validate UUID format
-const isValidUUID = (uuid: string) => {
-  const uuidRegex =
-    /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-  return uuidRegex.test(uuid);
-};
+export default async function LearningPlanPage({ params }: PageProps) {
+  const resolvedParams = await params;
+  const learningPlan = await getLearningPlan(resolvedParams.uuid);
 
-export default function ProposalPage({ params }: Props) {
-  // Validate UUID format
-  if (!isValidUUID(params.uuid)) {
+  if (!learningPlan) {
     notFound();
   }
 
   return (
-    <div className="min-h-screen p-8">
-      <main className="max-w-4xl mx-auto">
-        <h1 className="text-2xl font-bold mb-4">Learning Proposal</h1>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-          {/* Your proposal content will go here */}
-          <p>Proposal ID: {params.uuid}</p>
+    <div className="min-h-screen bg-white">
+      <div className="p-8 max-w-7xl mx-auto">
+        <h1 className="text-3xl font-bold mb-8">{learningPlan.title}</h1>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Left Column */}
+          <div className="space-y-8">
+            <StudentOverview overview={learningPlan.overview} />
+            <EngagementOverview overview={learningPlan.overview} />
+            <GoalsSection goals={learningPlan.synthesizedGoal} />
+            <Requirements requirements={learningPlan.requirements} />
+          </div>
+
+          {/* Right Column */}
+          <div className="space-y-8">
+            <ProjectRoadmap roadmap={learningPlan.roadmap} />
+            <SessionStructure structure={learningPlan.sessionStructure} />
+          </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
