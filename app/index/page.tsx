@@ -30,7 +30,7 @@ export default async function IndexPage() {
               className="p-4 rounded-lg border hover:bg-gray-50 transition-colors"
             >
               <div className="font-medium">
-                {plan.studentName}'s Learning Plan
+                {plan.studentName}&apos;s Learning Plan
               </div>
               <div className="text-sm text-gray-500">{plan.title}</div>
             </Link>
