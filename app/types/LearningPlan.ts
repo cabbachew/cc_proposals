@@ -5,6 +5,7 @@ export interface LearningPlan {
     engagementBlurb: string;
   };
   requirements: string[];
+  sessionsOccurred?: boolean;
   synthesizedGoal: {
     highLevelGoal: string;
     subGoals: {

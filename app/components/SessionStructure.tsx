@@ -9,6 +9,7 @@ interface SessionStructureProps {
     firstSessionAgenda: AgendaItem[];
     generalSessionAgenda: AgendaItem[];
   };
+  sessionsOccurred?: boolean;
 }
 
 interface AgendaItem {
@@ -16,8 +17,11 @@ interface AgendaItem {
   items: string[];
 }
 
-const SessionStructure = ({ structure }: SessionStructureProps) => {
-  const [showFirstSession, setShowFirstSession] = useState(true);
+const SessionStructure = ({
+  structure,
+  sessionsOccurred,
+}: SessionStructureProps) => {
+  const [showFirstSession, setShowFirstSession] = useState(!sessionsOccurred);
   const currentAgenda = showFirstSession
     ? structure.firstSessionAgenda
     : structure.generalSessionAgenda;
@@ -28,7 +32,9 @@ const SessionStructure = ({ structure }: SessionStructureProps) => {
         <div className="flex items-center justify-between">
           <CardTitle>Session Structure</CardTitle>
           <div className="flex items-center gap-3">
-            <span className="text-sm text-gray-600">First Session</span>
+            <span className="text-sm text-gray-600">
+              {sessionsOccurred ? "Next Session" : "First Session"}
+            </span>
             <Switch
               checked={!showFirstSession}
               onCheckedChange={(checked) => setShowFirstSession(!checked)}

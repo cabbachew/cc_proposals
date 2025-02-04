@@ -49,7 +49,10 @@ export default async function LearningPlanPage({ params }: { params: Params }) {
           {/* Right Column */}
           <div className="space-y-8">
             <ProjectRoadmap roadmap={learningPlan.roadmap} />
-            <SessionStructure structure={learningPlan.sessionStructure} />
+            <SessionStructure
+              structure={learningPlan.sessionStructure}
+              sessionsOccurred={learningPlan.sessionsOccurred}
+            />
           </div>
         </div>
       </div>
