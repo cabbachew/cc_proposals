@@ -8,6 +8,7 @@ import Requirements from "@/app/components/Requirements";
 import GoalsSection from "@/app/components/GoalsSection";
 import SessionStructure from "@/app/components/SessionStructure";
 import ProjectRoadmap from "@/app/components/ProjectRoadmap";
+import Tabs from "@/app/components/Tabs";
 
 export async function generateStaticParams() {
   const plans = await getAllLearningPlansWithTitles();
@@ -37,21 +38,24 @@ export default async function LearningPlanPage({ params }: { params: Params }) {
           input.
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Left Column */}
-          <div className="space-y-8">
+        <Tabs
+          labels={[
+            "Overview",
+            "Goals",
+            "Requirements",
+            "Roadmap",
+            "Session Structure",
+          ]}
+        >
+          <div className="space-y-4">
             <StudentOverview overview={learningPlan.overview} />
             <EngagementOverview overview={learningPlan.overview} />
-            <GoalsSection goals={learningPlan.synthesizedGoal} />
-            <Requirements requirements={learningPlan.requirements} />
           </div>
-
-          {/* Right Column */}
-          <div className="space-y-8">
-            <ProjectRoadmap roadmap={learningPlan.roadmap} />
-            <SessionStructure structure={learningPlan.sessionStructure} />
-          </div>
-        </div>
+          <GoalsSection goals={learningPlan.synthesizedGoal} />
+          <Requirements requirements={learningPlan.requirements} />
+          <ProjectRoadmap roadmap={learningPlan.roadmap} />
+          <SessionStructure structure={learningPlan.sessionStructure} />
+        </Tabs>
       </div>
     </div>
   );
