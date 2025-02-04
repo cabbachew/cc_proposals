@@ -21,7 +21,7 @@ const SessionStructure = ({
   structure,
   sessionsOccurred,
 }: SessionStructureProps) => {
-  const [showFirstSession, setShowFirstSession] = useState(!sessionsOccurred);
+  const [showFirstSession, setShowFirstSession] = useState(true);
   const currentAgenda = showFirstSession
     ? structure.firstSessionAgenda
     : structure.generalSessionAgenda;

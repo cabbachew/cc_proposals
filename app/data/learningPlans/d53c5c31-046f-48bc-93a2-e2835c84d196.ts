@@ -57,30 +57,28 @@ const learningPlan: LearningPlan = {
   sessionStructure: {
     firstSessionAgenda: [
       {
-        title: "Math Practice (30 min)",
+        title: "Opening Check-in (5-10 min)",
         items: [
-          "Review multiplication tables 9 and 12",
-          "Practice with visual aids and written problems",
-          "Interactive multiplication games",
-          "Build confidence in mental math strategies",
+          "Review multiplication tables practice from previous week",
+          "Discuss any challenges or successes with assigned practice",
+          "Set specific goals for today's session",
+          "Overview of session structure changes (math/English split)",
         ],
       },
       {
-        title: "English Focus (25 min)",
+        title: "Core Learning (45 min)",
         items: [
-          "Introduction to subject and predicate",
-          "Hands-on sentence building activities",
-          "Practice identifying parts of speech in simple sentences",
-          "Connect grammar concepts to reading interests",
+          "Math Practice (25 min): Review and strengthen 9 and 12 times tables with visual aids",
+          "English Practice (20 min): Introduction to subject and predicate through interactive examples",
         ],
       },
       {
-        title: "Wrap-up & Preview (5 min)",
+        title: "Wrap-up (5-10 min)",
         items: [
-          "Review key concepts learned",
-          "Set specific practice goals for the week",
+          "Reflect on session progress and learnings",
+          "Schedule next session",
+          "Define action items (multiplication practice, simple grammar exercises)",
           "Preview next session's activities",
-          "Celebrate progress made",
         ],
       },
     ],
