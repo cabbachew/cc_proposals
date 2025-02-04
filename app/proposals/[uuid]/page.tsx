@@ -10,16 +10,16 @@ import SessionStructure from "@/app/components/SessionStructure";
 import ProjectRoadmap from "@/app/components/ProjectRoadmap";
 
 export async function generateStaticParams() {
-  const ids = await getAllLearningPlansWithTitles();
-  return ids.map((uuid) => ({
-    uuid,
+  const plans = await getAllLearningPlansWithTitles();
+  return plans.map((plan) => ({
+    uuid: plan.id,
   }));
 }
 
 interface PageProps {
-  params: Promise<{
+  params: {
     uuid: string;
-  }>;
+  };
 }
 
 export default async function LearningPlanPage({ params }: PageProps) {
