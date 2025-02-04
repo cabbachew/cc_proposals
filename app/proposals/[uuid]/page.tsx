@@ -12,19 +12,15 @@ import ProjectRoadmap from "@/app/components/ProjectRoadmap";
 export async function generateStaticParams() {
   const plans = await getAllLearningPlansWithTitles();
   return plans.map((plan) => ({
-    uuid: plan.id,
+    uuid: String(plan.id),
   }));
 }
 
-interface PageProps {
-  params: {
-    uuid: string;
-  };
-}
+type Params = Promise<{ uuid: string }>;
 
-export default async function LearningPlanPage({ params }: PageProps) {
-  const resolvedParams = await params;
-  const learningPlan = await getLearningPlan(resolvedParams.uuid);
+export default async function LearningPlanPage({ params }: { params: Params }) {
+  const { uuid } = await params;
+  const learningPlan = await getLearningPlan(uuid);
 
   if (!learningPlan) {
     notFound();
