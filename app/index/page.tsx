@@ -1,38 +1,24 @@
-import Link from "next/link";
 import { getAllLearningPlanIds } from "@/app/utils/getAllLearningPlanIds";
-import { getLearningPlan } from "@/app/utils/getLearningPlan";
+import Link from "next/link";
 
-export default async function IndexPage() {
-  const ids = await getAllLearningPlanIds();
-  const plans = await Promise.all(
-    ids.map(async (id) => {
-      const plan = await getLearningPlan(id);
-      return {
-        id,
-        title: plan?.title || "Unknown Plan",
-        studentName:
-          plan?.overview?.studentBlurb?.split(" ")[0] || "Unknown Student",
-      };
-    })
-  );
+export default async function Home() {
+  const learningPlanIds = await getAllLearningPlanIds();
 
   return (
     <div className="min-h-screen bg-white">
       <div className="p-8 max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8">
-          Available Learning Proposals
-        </h1>
-        <div className="grid gap-4">
-          {plans.map((plan) => (
+        <h1 className="text-3xl font-bold mb-8">Learning Plans</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {learningPlanIds.map((id) => (
             <Link
-              key={plan.id}
-              href={`/proposals/${plan.id}`}
-              className="p-4 rounded-lg border hover:bg-gray-50 transition-colors"
+              key={id}
+              href={`/proposals/${id}`}
+              className="p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors"
             >
-              <div className="font-medium">
-                {plan.studentName}&apos;s Learning Plan
+              <div className="font-medium">Learning Plan {id.slice(0, 8)}</div>
+              <div className="text-sm text-gray-500 mt-2">
+                Click to view details
               </div>
-              <div className="text-sm text-gray-500">{plan.title}</div>
             </Link>
           ))}
         </div>
