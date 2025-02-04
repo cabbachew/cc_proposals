@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getLearningPlan } from "@/app/utils/getLearningPlan";
-import { getAllLearningPlanIds } from "@/app/utils/getAllLearningPlanIds";
+import { getAllLearningPlansWithTitles } from "@/app/utils/getAllLearningPlansWithTitles";
+
 import StudentOverview from "@/app/components/StudentOverview";
 import EngagementOverview from "@/app/components/EngagementOverview";
 import Requirements from "@/app/components/Requirements";
@@ -9,7 +10,7 @@ import SessionStructure from "@/app/components/SessionStructure";
 import ProjectRoadmap from "@/app/components/ProjectRoadmap";
 
 export async function generateStaticParams() {
-  const ids = await getAllLearningPlanIds();
+  const ids = await getAllLearningPlansWithTitles();
   return ids.map((uuid) => ({
     uuid,
   }));
