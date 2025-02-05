@@ -16,6 +16,9 @@ interface LearningPlanChatProps {
 export default function LearningPlanChat({ uuid }: LearningPlanChatProps) {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
     api: `/api/proposals/${uuid}/chat`,
+    body: {
+      uuid: uuid,
+    },
   });
 
   return (
