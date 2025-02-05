@@ -9,7 +9,7 @@ export async function POST(
   { params }: { params: { uuid: string } }
 ) {
   const { messages } = await req.json();
-  const { uuid } = await params;
+  const { uuid } = params;
   const learningPlan = await getLearningPlan(uuid);
 
   if (!learningPlan) {
