@@ -8,6 +8,7 @@ import Requirements from "@/app/components/Requirements";
 import GoalsSection from "@/app/components/GoalsSection";
 import SessionStructure from "@/app/components/SessionStructure";
 import ProjectRoadmap from "@/app/components/ProjectRoadmap";
+import LearningPlanChat from "@/app/components/LearningPlanChat";
 
 export async function generateStaticParams() {
   const plans = await getAllLearningPlansWithTitles();
@@ -54,6 +55,9 @@ export default async function LearningPlanPage({ params }: { params: Params }) {
               sessionsOccurred={learningPlan.sessionsOccurred}
             />
           </div>
+        </div>
+        <div className="w-full mt-8">
+          <LearningPlanChat uuid={uuid} />
         </div>
       </div>
     </div>
