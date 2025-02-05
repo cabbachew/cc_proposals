@@ -2,14 +2,10 @@ import { openai } from "@ai-sdk/openai";
 import { streamText } from "ai";
 import { getLearningPlan } from "@/app/utils/getLearningPlan";
 
-export const maxDuration = 30;
+export const maxDuration = 60;
 
-export async function POST(
-  req: Request,
-  { params }: { params: { uuid: string } }
-) {
-  const { messages } = await req.json();
-  const { uuid } = params;
+export async function POST(req: Request) {
+  const { messages, uuid } = await req.json();
   const learningPlan = await getLearningPlan(uuid);
 
   if (!learningPlan) {
