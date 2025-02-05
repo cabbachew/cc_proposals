@@ -51,24 +51,11 @@ export default async function LearningPlanPage({ params }: { params: Params }) {
             <StudentOverview overview={learningPlan.overview} />
             <EngagementOverview overview={learningPlan.overview} />
           </div>
-<<<<<<< HEAD
-
-          {/* Right Column */}
-          <div className="space-y-8">
-            <ProjectRoadmap roadmap={learningPlan.roadmap} />
-            <SessionStructure
-              structure={learningPlan.sessionStructure}
-              sessionsOccurred={learningPlan.sessionsOccurred}
-            />
-          </div>
-        </div>
-=======
           <GoalsSection goals={learningPlan.synthesizedGoal} />
           <Requirements requirements={learningPlan.requirements} />
           <ProjectRoadmap roadmap={learningPlan.roadmap} />
           <SessionStructure structure={learningPlan.sessionStructure} />
         </Tabs>
->>>>>>> 1bcf9ec (render learning plan in tab view)
       </div>
     </div>
   );
