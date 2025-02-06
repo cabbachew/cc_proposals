@@ -16,7 +16,7 @@ const learningPlan: LearningPlan = {
     "Session recordings via CC Notetaker for documentation and progress tracking",
     "Project artifacts including business plans, brand materials, and research documentation",
     "Progress tracking system for business development milestones",
-    "Regular sessions at 6:50pm Brazil time on Mondays",
+    "Tentative meeting time Mondays around 6:50pm Brazil time",
     "Research materials and business planning documentation",
     "Market analysis and competitor research materials",
   ],
@@ -144,6 +144,16 @@ const learningPlan: LearningPlan = {
       },
     ],
     weeklyRoadmap: [
+      {
+        title: "Session 1 (Completed)",
+        items: [
+          "Established mentor-mentee relationship and rapport",
+          "Explored Maya's background and entrepreneurial interests",
+          "Conducted hands-on sustainable sourcing research activity",
+          "Discussed quality vs cost considerations in business",
+          "Identified hair accessories as initial business focus",
+        ],
+      },
       {
         title: "Sessions 2-3",
         items: [
