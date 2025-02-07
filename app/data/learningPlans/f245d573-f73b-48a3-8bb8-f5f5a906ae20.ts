@@ -5,9 +5,9 @@ const learningPlan: LearningPlan = {
     "Personalized Learning Plan: Creative Writing Through Science and Music",
   overview: {
     studentBlurb:
-      "Aryav is a curious and accomplished 9-year-old fourth grader at Laurel Mountain Elementary in Austin, with diverse interests spanning piano, baseball, and technology. A natural big-picture thinker with strong scientific curiosity, he excels in several areas including music composition and hands-on experiments, while seeking to develop his creative writing and self-expression skills.",
+      "Aaryav is a curious and accomplished 9-year-old fourth grader at Laurel Mountain Elementary in Austin, with diverse interests spanning piano, baseball, and technology. A natural big-picture thinker with strong scientific curiosity, he excels in several areas including music composition and hands-on experiments, while seeking to develop his creative writing and self-expression skills.",
     engagementBlurb:
-      "This Passion Project, enhanced with Executive Functioning support, will guide Aryav in discovering his creative voice through topics he's passionate about. The mentor will use an exploratory, curiosity-driven approach to help him develop detailed storytelling skills, focusing on his interests in science, music, and technology as springboards for creative expression.",
+      "This Passion Project, enhanced with Executive Functioning support, will guide Aaryav in discovering his creative voice through topics he's passionate about. The mentor will use an exploratory, curiosity-driven approach to help him develop detailed storytelling skills, focusing on his interests in science, music, and technology as springboards for creative expression.",
   },
   requirements: [
     "Session recordings via CC Notetaker",
@@ -19,7 +19,7 @@ const learningPlan: LearningPlan = {
   ],
   synthesizedGoal: {
     highLevelGoal:
-      "Develop Aryav's confidence and ability in creative expression through writing, using his passions for science, music, and technology as catalysts for storytelling and detailed communication.",
+      "Develop Aaryav's confidence and ability in creative expression through writing, using his passions for science, music, and technology as catalysts for storytelling and detailed communication.",
     subGoals: [
       {
         title: "Build Writing Confidence",
