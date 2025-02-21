@@ -1,6 +1,7 @@
 import { LearningPlan } from "@/app/types/LearningPlan";
 
 const learningPlan: LearningPlan = {
+  sessionsOccurred: true,
   title: "Personalized Learning Plan: Sound Science & Technology Exploration",
   overview: {
     studentBlurb:
