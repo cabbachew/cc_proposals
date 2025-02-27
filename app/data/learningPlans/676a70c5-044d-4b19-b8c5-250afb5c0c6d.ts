@@ -69,26 +69,26 @@ const learningPlan: LearningPlan = {
         title: "Check-in and Review (10 min)",
         items: [
           "Discuss progress on sleep and athletic performance blog post outline",
-          "Review updated mission statement draft",
-          "Check for any responses to interview requests",
+          "Review updated mission statement draft for 'The Tackle Zone'",
+          "Check for any responses to interview requests sent to medical professionals",
         ],
       },
       {
         title: "Core Work (35-45 min)",
         items: [
-          "Draft the sleep and athletic performance blog post",
-          "Refine the mission statement if needed",
+          "Draft the sleep and athletic performance blog post based on prepared outline",
+          "Refine the mission statement to reflect the expanded focus on sports medicine and brain health",
           "Finalize the website name decision ('The Tackle Zone' or alternatives)",
-          "Review logo design options",
+          "Review logo design options for the rebranded website",
         ],
       },
       {
         title: "Wrap-up (5-10 min)",
         items: [
           "Summarize progress made and decisions finalized",
-          "Plan content calendar for upcoming blog posts",
-          "Confirm schedule around upcoming March exams and spring break",
-          "Define action items for next meeting",
+          "Define next steps for completing the sleep and athletic performance blog post",
+          "Confirm schedule for upcoming sessions around March exams and spring break",
+          "Discuss potential presentation opportunities with the Medicine Club",
         ],
       },
     ],
@@ -127,43 +127,46 @@ const learningPlan: LearningPlan = {
   roadmap: {
     monthlyRoadmap: [
       {
-        title: "So far: Website Foundation & Initial Content (Dec-Feb)",
+        title: "So far: Website Foundation & Initial Content",
         items: [
           "Established website structure with initial sections: About Me, Mission, Learn About Alzheimer's",
           "Created professional logo and consistent visual identity",
-          "Completed first and second blog posts on concussions and CTE/football safety",
+          "Completed first blog post on concussions and long-term impacts",
+          "Drafted second blog post on CTE and football safety rules",
           "Began outreach to experts for potential interviews",
           "Started refining website focus to bridge Alzheimer's awareness with sports medicine",
+          "Created email templates for outreach to medical professionals",
         ],
       },
       {
-        title: "Month 1: Content Expansion & Website Rebranding (March)",
+        title: "Month 1: Content Expansion & Website Rebranding",
         items: [
-          "Finalize website name change and updated mission statement",
+          "Finalize website name change to 'The Tackle Zone' and update mission statement",
           "Complete third blog post on sleep and athletic performance",
-          "Develop additional blog posts connecting sports medicine and brain health",
-          "Create comprehensive content calendar for upcoming months",
-          "Follow up with potential interview subjects and conduct initial interviews if responses received",
+          "Continue outreach to medical professionals and experts for interviews",
+          "Develop strategy for potential charitable football event for fundraising",
+          "Prepare presentation materials for Medicine Club",
+          "Explore dual fundraising options for both Alzheimer's and concussion research",
         ],
       },
       {
-        title: "Month 2: Community Engagement & Promotion (April)",
+        title: "Month 2: Community Engagement & Promotion",
         items: [
           "Develop Instagram content strategy to promote website",
           "Present Alzheimer's/brain health information to Medicine Club",
-          "Begin planning for charitable sports event (potentially a football game fundraiser)",
+          "Continue blog post development with focus on sports medicine topics",
           "Create outreach materials for potential partnerships with local organizations",
-          "Enhance website with interactive elements and additional resources",
+          "Enhance website with additional educational resources",
         ],
       },
       {
-        title: "Month 3: Impact Assessment & Future Planning (May)",
+        title: "Month 3: Impact Expansion & End-of-Year Planning",
         items: [
-          "Execute first fundraising initiative with dual options for Alzheimer's and concussion research",
-          "Analyze website traffic and engagement metrics to refine strategy",
-          "Develop summer content and activity plan to maintain momentum",
-          "Create presentation materials showcasing project accomplishments",
-          "Plan for junior year expansion of the initiative",
+          "Plan for first fundraising initiative",
+          "Refine promotion strategy to increase website visibility",
+          "Conduct and publish interviews with medical professionals (if responses received)",
+          "Document progress and achievements for future college applications",
+          "Develop plan for continuing the project through summer and junior year",
         ],
       },
     ],
@@ -178,72 +181,290 @@ const learningPlan: LearningPlan = {
           "Completed first blog post about concussions and long-term impact",
           "Drafted second blog post about CTE and football safety rules",
           "Created email templates and began outreach to medical professionals",
+          "Added personal photo with grandfather to the About Me section",
           "Refined project focus to connect Alzheimer's awareness with sports medicine",
+          "Explored possible name change to 'The Tackle Zone'",
         ],
       },
       {
-        title: "Sessions 8-9: Rebranding & Third Blog Post",
+        title: "Sessions 8-9: Website Rebranding & Third Blog Post",
         items: [
           "Finalize website name change and updated mission statement",
           "Complete third blog post on sleep and athletic performance",
-          "Implement new visual identity across website (logo, color scheme, etc.)",
-          "Review and update website navigation structure if needed",
           "Follow up with potential interview contacts",
+          "Draft email to Chris Nowitzki (speaker who visited Riverdale)",
+          "Continue outreach through social media direct messages to medical professionals",
+          "Prepare for upcoming March exams",
         ],
       },
       {
         title: "Sessions 10-11: Content Strategy & Planning",
         items: [
-          "Develop content calendar for regular blog posts",
-          "Outline fourth blog post (topic to be determined)",
-          "Create Instagram content plan to promote website",
-          "Prepare presentation materials for Medicine Club",
-          "Begin research on potential fundraising event options",
+          "Plan content calendar for regular blog posts",
+          "Outline ideas for future blog topics",
+          "Refine social media strategy for promoting website",
+          "Explore presentation opportunities with Medicine Club",
+          "Research charitable sports event possibilities for fundraising",
         ],
       },
       {
-        title: "Sessions 12-13: Expert Interviews & Partnerships",
+        title: "Sessions 12: Spring Recap & Summer Planning",
         items: [
-          "Conduct and transcribe expert interviews (if responses received)",
-          "Format interview content for website publication",
-          "Research and outline potential partnerships with local organizations",
-          "Draft outreach materials for potential partners",
-          "Continue developing regular blog content",
-        ],
-      },
-      {
-        title: "Sessions 14-15: Event Planning & Promotion",
-        items: [
-          "Develop detailed plan for charitable sports event",
-          "Create promotional materials for event",
-          "Reach out to potential participants and sponsors",
-          "Continue social media promotion and content creation",
-          "Analyze website traffic and engagement",
-        ],
-      },
-      {
-        title: "Sessions 16-17: Fundraising Implementation",
-        items: [
-          "Launch dual-purpose fundraising initiative",
-          "Create fundraising tracking system",
-          "Execute promotional plan for fundraising",
-          "Continue regular blog post publication",
-          "Develop summer content and activity strategy",
-        ],
-      },
-      {
-        title: "Sessions 18-19: Impact Assessment",
-        items: [
-          "Analyze fundraising results and website engagement metrics",
-          "Document project journey and personal growth",
-          "Create presentation highlighting accomplishments",
-          "Develop plan for junior year continuation",
-          "Identify potential new directions and partnerships",
+          "Review progress and achievements from first phase of project",
+          "Identify key learnings and successes to highlight",
+          "Plan content and outreach during summer break",
+          "Set goals for junior year continuation of the project",
+          "Discuss potential for expanding fundraising efforts",
         ],
       },
     ],
   },
 };
+
+// const learningPlan: LearningPlan = {
+//   sessionsOccurred: true,
+//   title:
+//     "Personalized Learning Plan: Building an Impactful Alzheimer's and Sports Medicine Website",
+//   overview: {
+//     studentBlurb:
+//       "Will is a 10th grader at Riverdale Country Day with a strong interest in medicine, particularly sports medicine, and a personal connection to Alzheimer's disease. As the quarterback of Riverdale's football team with strong interpersonal skills and high emotional intelligence, Will excels in connecting with others and is taking honors math and two science courses (Biochem 2 and Microbiology). He has already developed a website called 'AFA Youth' focused on Alzheimer's awareness, which includes a GoFundMe component, and is now expanding it to incorporate his passion for sports medicine and brain health.",
+
+//     engagementBlurb:
+//       "This Passion Project engagement is guiding Will in developing his initiative into a comprehensive website that bridges his interests in Alzheimer's awareness and sports medicine. The mentor provides structure, clear direction, and accountability to help Will create content that uniquely represents his interests and concerns. Will's site is evolving from a purely Alzheimer's-focused platform to a more comprehensive brain health resource tentatively titled 'The Tackle Zone' (Training, Awareness, Concussion, Knowledge, Lifestyle Education). The mentor and Will are working together to create blog posts, conduct expert interviews, and develop fundraising strategies that connect his personal experience with Alzheimer's to his passion for football and sports medicine.",
+//   },
+
+//   requirements: [
+//     "Session recordings via CC Notetaker for transcripts and session notes",
+//     "Project artifacts including website development files, blog posts, marketing materials, fundraising campaign documents, and research notes",
+//     "Progress tracking towards key milestones with weekly check-ins on tasks completed",
+//     "Will is currently available at 6:00 PM on Sundays; schedule adjustments will be made around March exams and spring break",
+//   ],
+
+//   synthesizedGoal: {
+//     highLevelGoal:
+//       "Create and maintain a comprehensive website that connects Will's interest in sports medicine with Alzheimer's awareness, providing educational content while developing his research, writing, and project management skills.",
+
+//     subGoals: [
+//       {
+//         title: "Website Development",
+//         items: [
+//           "Transform the initial website into a more comprehensive platform with expanded focus beyond just Alzheimer's awareness",
+//           "Develop a distinctive brand identity that connects brain health, sports medicine, and Alzheimer's awareness",
+//           "Create a professional website with multiple components (educational content, blog posts, personal stories, resources, donation options)",
+//           "Design engaging graphics and consistent visual elements to enhance the user experience",
+//         ],
+//       },
+//       {
+//         title: "Content Creation",
+//         items: [
+//           "Research and write informative blog posts about concussions, CTE, sports safety, sleep and athletic performance",
+//           "Conduct interviews with medical professionals to provide expert insights",
+//           "Create educational resources about brain health, injury prevention, and Alzheimer's disease",
+//           "Develop a content calendar for regular blog updates to maintain engagement",
+//         ],
+//       },
+//       {
+//         title: "Community Impact & Outreach",
+//         items: [
+//           "Implement effective fundraising strategies including options for both Alzheimer's research and concussion/brain injury initiatives",
+//           "Build partnerships with relevant organizations, schools, and sports teams",
+//           "Develop a social media strategy to build awareness and engage community members",
+//           "Plan and execute events such as charity football games or other fundraising activities",
+//         ],
+//       },
+//       {
+//         title: "Personal Development",
+//         items: [
+//           "Strengthen research and writing skills through blog post creation",
+//           "Develop professional communication skills through expert outreach and interviews",
+//           "Build public speaking and presentation skills through potential Medicine Club presentations",
+//           "Document the project development process for college applications and future opportunities",
+//         ],
+//       },
+//     ],
+//   },
+
+//   sessionStructure: {
+//     firstSessionAgenda: [
+//       {
+//         title: "Check-in and Review (10 min)",
+//         items: [
+//           "Discuss progress on sleep and athletic performance blog post outline",
+//           "Review updated mission statement draft",
+//           "Check for any responses to interview requests",
+//         ],
+//       },
+//       {
+//         title: "Core Work (35-45 min)",
+//         items: [
+//           "Draft the sleep and athletic performance blog post",
+//           "Refine the mission statement if needed",
+//           "Finalize the website name decision ('The Tackle Zone' or alternatives)",
+//           "Review logo design options",
+//         ],
+//       },
+//       {
+//         title: "Wrap-up (5-10 min)",
+//         items: [
+//           "Summarize progress made and decisions finalized",
+//           "Plan content calendar for upcoming blog posts",
+//           "Confirm schedule around upcoming March exams and spring break",
+//           "Define action items for next meeting",
+//         ],
+//       },
+//     ],
+
+//     generalSessionAgenda: [
+//       {
+//         title: "Opening (5-10 min)",
+//         items: [
+//           "Personal check-in using Rose/Bud/Thorn format",
+//           "Review completed tasks since last session",
+//           "Address any challenges encountered",
+//           "Set specific objectives for the current session",
+//         ],
+//       },
+//       {
+//         title: "Core Work (40-50 min)",
+//         items: [
+//           "Work on blog post development (research, drafting, or editing)",
+//           "Review and refine website elements (design, organization, content)",
+//           "Develop outreach materials (email templates, interview questions)",
+//           "Plan promotional strategies and potential events",
+//         ],
+//       },
+//       {
+//         title: "Wrap-up (5-10 min)",
+//         items: [
+//           "Reflect on progress made during the session",
+//           "Clearly define action items with deadlines for the coming week",
+//           "Preview focus areas for the next session",
+//           "Adjust timeline as needed based on school commitments",
+//         ],
+//       },
+//     ],
+//   },
+
+//   roadmap: {
+//     monthlyRoadmap: [
+//       {
+//         title: "So far: Website Foundation & Initial Content (Dec-Feb)",
+//         items: [
+//           "Established website structure with initial sections: About Me, Mission, Learn About Alzheimer's",
+//           "Created professional logo and consistent visual identity",
+//           "Completed first and second blog posts on concussions and CTE/football safety",
+//           "Began outreach to experts for potential interviews",
+//           "Started refining website focus to bridge Alzheimer's awareness with sports medicine",
+//         ],
+//       },
+//       {
+//         title: "Month 1: Content Expansion & Website Rebranding (March)",
+//         items: [
+//           "Finalize website name change and updated mission statement",
+//           "Complete third blog post on sleep and athletic performance",
+//           "Develop additional blog posts connecting sports medicine and brain health",
+//           "Create comprehensive content calendar for upcoming months",
+//           "Follow up with potential interview subjects and conduct initial interviews if responses received",
+//         ],
+//       },
+//       {
+//         title: "Month 2: Community Engagement & Promotion (April)",
+//         items: [
+//           "Develop Instagram content strategy to promote website",
+//           "Present Alzheimer's/brain health information to Medicine Club",
+//           "Begin planning for charitable sports event (potentially a football game fundraiser)",
+//           "Create outreach materials for potential partnerships with local organizations",
+//           "Enhance website with interactive elements and additional resources",
+//         ],
+//       },
+//       {
+//         title: "Month 3: Impact Assessment & Future Planning (May)",
+//         items: [
+//           "Execute first fundraising initiative with dual options for Alzheimer's and concussion research",
+//           "Analyze website traffic and engagement metrics to refine strategy",
+//           "Develop summer content and activity plan to maintain momentum",
+//           "Create presentation materials showcasing project accomplishments",
+//           "Plan for junior year expansion of the initiative",
+//         ],
+//       },
+//     ],
+
+//     weeklyRoadmap: [
+//       {
+//         title: "Sessions 1-7 (Completed)",
+//         items: [
+//           "Defined initial website structure and organization",
+//           "Created professional logo and consistent design elements",
+//           "Researched and wrote educational content about Alzheimer's disease",
+//           "Completed first blog post about concussions and long-term impact",
+//           "Drafted second blog post about CTE and football safety rules",
+//           "Created email templates and began outreach to medical professionals",
+//           "Refined project focus to connect Alzheimer's awareness with sports medicine",
+//         ],
+//       },
+//       {
+//         title: "Sessions 8-9: Rebranding & Third Blog Post",
+//         items: [
+//           "Finalize website name change and updated mission statement",
+//           "Complete third blog post on sleep and athletic performance",
+//           "Implement new visual identity across website (logo, color scheme, etc.)",
+//           "Review and update website navigation structure if needed",
+//           "Follow up with potential interview contacts",
+//         ],
+//       },
+//       {
+//         title: "Sessions 10-11: Content Strategy & Planning",
+//         items: [
+//           "Develop content calendar for regular blog posts",
+//           "Outline fourth blog post (topic to be determined)",
+//           "Create Instagram content plan to promote website",
+//           "Prepare presentation materials for Medicine Club",
+//           "Begin research on potential fundraising event options",
+//         ],
+//       },
+//       {
+//         title: "Sessions 12-13: Expert Interviews & Partnerships",
+//         items: [
+//           "Conduct and transcribe expert interviews (if responses received)",
+//           "Format interview content for website publication",
+//           "Research and outline potential partnerships with local organizations",
+//           "Draft outreach materials for potential partners",
+//           "Continue developing regular blog content",
+//         ],
+//       },
+//       {
+//         title: "Sessions 14-15: Event Planning & Promotion",
+//         items: [
+//           "Develop detailed plan for charitable sports event",
+//           "Create promotional materials for event",
+//           "Reach out to potential participants and sponsors",
+//           "Continue social media promotion and content creation",
+//           "Analyze website traffic and engagement",
+//         ],
+//       },
+//       {
+//         title: "Sessions 16-17: Fundraising Implementation",
+//         items: [
+//           "Launch dual-purpose fundraising initiative",
+//           "Create fundraising tracking system",
+//           "Execute promotional plan for fundraising",
+//           "Continue regular blog post publication",
+//           "Develop summer content and activity strategy",
+//         ],
+//       },
+//       {
+//         title: "Sessions 18-19: Impact Assessment",
+//         items: [
+//           "Analyze fundraising results and website engagement metrics",
+//           "Document project journey and personal growth",
+//           "Create presentation highlighting accomplishments",
+//           "Develop plan for junior year continuation",
+//           "Identify potential new directions and partnerships",
+//         ],
+//       },
+//     ],
+//   },
+// };
 
 // const learningPlan: LearningPlan = {
 //   title:
